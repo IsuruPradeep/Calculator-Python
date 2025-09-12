@@ -3,23 +3,23 @@ history_list = []
 def add(a, b):
     return a + b
 
-def subtract(a, b):
+def subtract(a, b) :
     return a - b
 
-def multiply(a, b):
+def multiply(a, b) :
     return a * b
 
-def divide(a, b):
+def divide(a, b) :
     try:
         return a / b
-    except Exception as e:
+    except Exception as e :
         print(e)
         return None
 
-def power(a, b):
+def power(a, b) :
     return a ** b
 
-def remainder(a, b):
+def remainder(a, b) :
     try:
         return a % b
     except Exception as e:
