@@ -76,17 +76,17 @@ def select_op(choice):
 
         result = 0.0
         last_calculation = ""
-        if choice == '+':
+        if choice == '+' :
             result = add(num1, num2);
-        elif choice == '-':
+        elif choice == '-' :
             result = subtract(num1, num2);
-        elif choice == '*':
+        elif choice == '*' :
             result = multiply(num1, num2);
-        elif choice == '/':
+        elif choice == '/' :
             result = divide(num1, num2);
-        elif choice == '^':
+        elif choice == '^' :
             result = power(num1, num2);
-        elif choice == '%':
+        elif choice == '%' :
             result = remainder(num1, num2);
         else:
             print("Something went wrong")
@@ -95,7 +95,7 @@ def select_op(choice):
         print(last_calculation)
 
         # Store the result in the history list
-        history_list.append(last_calculation);
+        history_list.append(last_calculation) ;
     else:
         print("Unrecognized operation")
 
