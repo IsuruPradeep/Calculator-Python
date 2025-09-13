@@ -48,9 +48,9 @@ def select_op(choice):
         while True:
             num1s = str(input("Enter first number: "))
             print(num1s)
-            if num1s.endswith('$'):
+            if num1s.endswith( '$' ):
                 return 0;
-            if num1s.endswith('#'):
+            if num1s.endswith( '#' ):
                 return -1;
 
             try:
@@ -113,8 +113,8 @@ while True:
 
     # Take input from the user
     choice = input("Enter choice(+,-,*,/,^,%,#,$,?): ")
-    print(choice)
+    print( choice )
     if(select_op(choice) == -1):
         # Program ends here
         print("Done. Terminating")
-        exit()
+        exit( )
